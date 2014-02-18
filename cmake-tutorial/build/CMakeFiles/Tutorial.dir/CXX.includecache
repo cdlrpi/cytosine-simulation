@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/laflij/Documents/Research/Code/cytosine-simulation/cmake-tutorial/src/tutorial.cxx
+stdio.h
+-
+stdlib.h
+-
+math.h
+-
+

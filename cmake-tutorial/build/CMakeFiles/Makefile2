@@ -50,10 +50,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/qinglongk/Documents/github/cytosine-simulation/cmake-tutorial/src
+CMAKE_SOURCE_DIR = /home/laflij/Documents/Research/Code/cytosine-simulation/cmake-tutorial/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/qinglongk/Documents/github/cytosine-simulation/cmake-tutorial/build
+CMAKE_BINARY_DIR = /home/laflij/Documents/Research/Code/cytosine-simulation/cmake-tutorial/build
 
 #=============================================================================
 # Target rules for target CMakeFiles/Tutorial.dir
@@ -62,7 +62,7 @@ CMAKE_BINARY_DIR = /home/qinglongk/Documents/github/cytosine-simulation/cmake-tu
 CMakeFiles/Tutorial.dir/all:
 	$(MAKE) -f CMakeFiles/Tutorial.dir/build.make CMakeFiles/Tutorial.dir/depend
 	$(MAKE) -f CMakeFiles/Tutorial.dir/build.make CMakeFiles/Tutorial.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/qinglongk/Documents/github/cytosine-simulation/cmake-tutorial/build/CMakeFiles 
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/laflij/Documents/Research/Code/cytosine-simulation/cmake-tutorial/build/CMakeFiles  1
 	@echo "Built target Tutorial"
 .PHONY : CMakeFiles/Tutorial.dir/all
 
@@ -72,9 +72,9 @@ all: CMakeFiles/Tutorial.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Tutorial.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/qinglongk/Documents/github/cytosine-simulation/cmake-tutorial/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/laflij/Documents/Research/Code/cytosine-simulation/cmake-tutorial/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Tutorial.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/qinglongk/Documents/github/cytosine-simulation/cmake-tutorial/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/laflij/Documents/Research/Code/cytosine-simulation/cmake-tutorial/build/CMakeFiles 0
 .PHONY : CMakeFiles/Tutorial.dir/rule
 
 # Convenience name for target.
