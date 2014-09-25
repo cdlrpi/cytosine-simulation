@@ -84,9 +84,9 @@ double__pendulum_EXTERNAL_OBJECTS =
 
 double-pendulum: CMakeFiles/double-pendulum.dir/main.cpp.o
 double-pendulum: CMakeFiles/double-pendulum.dir/build.make
-double-pendulum: /home/kongq2/Software/simbody/lib/x86_64-linux-gnu/libSimTKsimbody.so
-double-pendulum: /home/kongq2/Software/simbody/lib/x86_64-linux-gnu/libSimTKmath.so
-double-pendulum: /home/kongq2/Software/simbody/lib/x86_64-linux-gnu/libSimTKcommon.so
+double-pendulum: /usr/lib/x86_64-linux-gnu/libSimTKsimbody.so
+double-pendulum: /usr/lib/x86_64-linux-gnu/libSimTKmath.so
+double-pendulum: /usr/lib/x86_64-linux-gnu/libSimTKcommon.so
 double-pendulum: CMakeFiles/double-pendulum.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable double-pendulum"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/double-pendulum.dir/link.txt --verbose=$(VERBOSE)

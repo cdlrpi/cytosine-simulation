@@ -1,1 +1,1 @@
-/usr/bin/c++       CMakeFiles/double-pendulum.dir/main.cpp.o  -o double-pendulum -rdynamic /home/kongq2/Software/simbody/lib/x86_64-linux-gnu/libSimTKsimbody.so /home/kongq2/Software/simbody/lib/x86_64-linux-gnu/libSimTKmath.so /home/kongq2/Software/simbody/lib/x86_64-linux-gnu/libSimTKcommon.so -llapack -lblas -lpthread -lrt -ldl -lm -Wl,-rpath,/home/kongq2/Software/simbody/lib/x86_64-linux-gnu 
+/usr/bin/c++       CMakeFiles/double-pendulum.dir/main.cpp.o  -o double-pendulum -rdynamic -lSimTKsimbody -lSimTKmath -lSimTKcommon -llapack -lblas -lpthread -lrt -ldl -lm 
