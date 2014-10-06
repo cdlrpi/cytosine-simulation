@@ -1,10 +1,10 @@
-FILE(REMOVE_RECURSE
+file(REMOVE_RECURSE
   "CMakeFiles/double-pendulum.dir/main.cpp.o"
   "double-pendulum.pdb"
   "double-pendulum"
 )
 
 # Per-language clean rules from dependency scanning.
-FOREACH(lang CXX)
-  INCLUDE(CMakeFiles/double-pendulum.dir/cmake_clean_${lang}.cmake OPTIONAL)
-ENDFOREACH(lang)
+foreach(lang CXX)
+  include(CMakeFiles/double-pendulum.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

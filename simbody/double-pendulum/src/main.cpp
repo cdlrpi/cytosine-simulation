@@ -1,5 +1,6 @@
 #include "Simbody.h" 
 #include "Position.h"
+#include "Velocity.h"
 using namespace SimTK;
 
 int main() {
@@ -17,7 +18,11 @@ int main() {
     // Set up visualization.
 	//Visualizer viz(system);
 	//system.addEventReporter(new Visualizer::Reporter(viz, 0.01));
-	system.addEventReporter(new PositionReporter(system, pendulum2, 0.1));
+        std::cout<<"Time"<<"\t"<<"x"<<"\t"<<"y"<<"\t"<<"vx"<<"\t"<<"vy"<<std::endl;
+	system.addEventReporter(new PositionReporter(system, pendulum1, 0.1));
+	system.addEventReporter(new VelocityReporter(system, pendulum1, 0.1));
+	//system.addEventReporter(new PositionReporter(system, pendulum2, 0.1));
+	//system.addEventReporter(new VelocityReporter(system, pendulum2, 0.1));
     // Initialize the system and state.
 	system.realizeTopology();
 	State state = system.getDefaultState();
@@ -27,5 +32,5 @@ int main() {
 	RungeKuttaMersonIntegrator integ(system);
 	TimeStepper ts(system, integ);
 	ts.initialize(state);
-	ts.stepTo(50.0);
+	ts.stepTo(10.0);
 }

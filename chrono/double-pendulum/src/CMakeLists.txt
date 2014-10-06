@@ -8,7 +8,7 @@ include_directories(${CHRONOENGINE_INCLUDES})
 
 SET (CMAKE_C_FLAGS "-Wall -g")
 
-SET (SRC_LIST demo_pendulum.cpp) 
+SET (SRC_LIST demo_buildsystem.cpp) 
 SET (EXECUTABLE_OUTPUT_PATH ${PROJECT_BINARY_DIR})
 ADD_EXECUTABLE (double-pendulum ${SRC_LIST})
 TARGET_LINK_LIBRARIES (double-pendulum ${CHRONOENGINE_LIBRARIES})

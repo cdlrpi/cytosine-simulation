@@ -12,7 +12,7 @@ public:
         	Vec3 pos = mobod.getBodyOriginLocation(state);
 		//Vec3 vel = mobod.getBodyOriginVelocity(state);
 		//Vec3 acc = mobod.getBodyOriginAcceleration(state);
-        	std::cout<<state.getTime()<<"\t"<<pos[0]<<"\t"<<pos[1];
+        	std::cout<<state.getTime()<<"\t"<<pos[0]<<"\t"<<pos[1]<<std::endl;
 	}
 private:
 	const MultibodySystem& system;
