@@ -9,7 +9,7 @@ int main() {
 	SimbodyMatterSubsystem matter(system);
 	GeneralForceSubsystem forces(system);
 	Force::UniformGravity gravity(forces, matter, Vec3(0, -9.8, 0)); 
-	Body::Rigid pendulumBody(MassProperties(1.0, Vec3(0), Inertia(1)));
+	Body::Rigid pendulumBody(MassProperties(1.0, Vec3(0), Inertia(0)));
 //	pendulumBody.addDecoration(Transform(), DecorativeSphere(0.1)); 
 	MobilizedBody::Pin pendulum1(matter.Ground(), Transform(Vec3(0)),
             pendulumBody, Transform(Vec3(0, 1, 0)));
