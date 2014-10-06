@@ -19,7 +19,7 @@ int main() {
 	//Visualizer viz(system);
 	//system.addEventReporter(new Visualizer::Reporter(viz, 0.01));
         std::cout<<"Time"<<"\t"<<"x"<<"\t"<<"y"<<"\t"<<"vx"<<"\t"<<"vy"<<std::endl;
-	system.addEventReporter(new PositionReporter(system, pendulum1, 0.1));
+	system.addEventReporter(new PositionReporter(system, pendulum1, 0.1));  //change to pendulum2 will get data for pendulum2
 	system.addEventReporter(new VelocityReporter(system, pendulum1, 0.1));
 	//system.addEventReporter(new PositionReporter(system, pendulum2, 0.1));
 	//system.addEventReporter(new VelocityReporter(system, pendulum2, 0.1));
