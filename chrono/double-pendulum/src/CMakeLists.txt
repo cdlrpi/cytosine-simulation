@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 2.8)
 
 PROJECT (double-pendulum)
 
-FIND_PACKAGE (ChronoEngine COMPONENTS unit_IRRLICHT)
+FIND_PACKAGE (ChronoEngine)
 
 include_directories(${CHRONOENGINE_INCLUDES})
 

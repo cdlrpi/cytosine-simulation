@@ -1,1 +1,1 @@
-/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/double-pendulum.dir/demo_buildsystem.cpp.o  -o double-pendulum  /Users/K/Software/chrono-build/lib/libChronoEngine.dylib /Users/K/Software/chrono-build/lib/libChronoEngine_IRRLICHT.dylib /usr/local/lib/libIrrlicht.a -framework Cocoa -framework OpenGL -framework IOKit 
+/usr/bin/c++       CMakeFiles/double-pendulum.dir/demo_buildsystem.cpp.o  -o double-pendulum -rdynamic /home/kongq2/Software/chrono-build/chrono/lib/libChronoEngine.so -Wl,-rpath,/home/kongq2/Software/chrono-build/chrono/lib 
