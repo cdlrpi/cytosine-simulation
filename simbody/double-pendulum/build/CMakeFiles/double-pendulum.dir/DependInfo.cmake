@@ -4,14 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/K/Research/code/cytosine-simulation/chrono/double-pendulum/src/single_pendulum.cpp" "/Users/K/Research/code/cytosine-simulation/chrono/double-pendulum/build/CMakeFiles/double-pendulum.dir/single_pendulum.cpp.o"
+  "/Users/K/Research/code/cytosine-simulation/simbody/double-pendulum/src/main.cpp" "/Users/K/Research/code/cytosine-simulation/simbody/double-pendulum/build/CMakeFiles/double-pendulum.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "Clang")
-
-# Preprocessor definitions for this target.
-set(CMAKE_TARGET_DEFINITIONS
-  "BP_USE_FIXEDPOINT_INT_32"
-  )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
@@ -19,10 +14,7 @@ set(CMAKE_TARGET_LINKED_INFO_FILES
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
-  "/Users/K/Software/chrono-source/src"
-  "/Users/K/Software/chrono-source/src/collision/bullet"
-  "/Users/K/Software/chrono-source/src/collision/gimpact"
-  "/Users/K/Software/chrono-source/src/collision/convexdecomposition/HACD"
+  "/usr/local/Cellar/simbody/3.4.1/include/simbody"
   )
 set(CMAKE_CXX_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})
 set(CMAKE_Fortran_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})

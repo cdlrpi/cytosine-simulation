@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/double-pendulum.dir/single_pendulum.cpp.o"
+  "CMakeFiles/double-pendulum.dir/main.cpp.o"
   "double-pendulum.pdb"
   "double-pendulum"
 )

@@ -43,10 +43,10 @@ RM = /usr/local/Cellar/cmake/3.0.2/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/K/Research/code/cytosine-simulation/chrono/double-pendulum/src
+CMAKE_SOURCE_DIR = /Users/K/Research/code/cytosine-simulation/simbody/double-pendulum/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/K/Research/code/cytosine-simulation/chrono/double-pendulum/build
+CMAKE_BINARY_DIR = /Users/K/Research/code/cytosine-simulation/simbody/double-pendulum/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -73,9 +73,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/K/Research/code/cytosine-simulation/chrono/double-pendulum/build/CMakeFiles /Users/K/Research/code/cytosine-simulation/chrono/double-pendulum/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/K/Research/code/cytosine-simulation/simbody/double-pendulum/build/CMakeFiles /Users/K/Research/code/cytosine-simulation/simbody/double-pendulum/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/K/Research/code/cytosine-simulation/chrono/double-pendulum/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/K/Research/code/cytosine-simulation/simbody/double-pendulum/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -115,29 +115,29 @@ double-pendulum/fast:
 	$(MAKE) -f CMakeFiles/double-pendulum.dir/build.make CMakeFiles/double-pendulum.dir/build
 .PHONY : double-pendulum/fast
 
-single_pendulum.o: single_pendulum.cpp.o
-.PHONY : single_pendulum.o
+main.o: main.cpp.o
+.PHONY : main.o
 
 # target to build an object file
-single_pendulum.cpp.o:
-	$(MAKE) -f CMakeFiles/double-pendulum.dir/build.make CMakeFiles/double-pendulum.dir/single_pendulum.cpp.o
-.PHONY : single_pendulum.cpp.o
+main.cpp.o:
+	$(MAKE) -f CMakeFiles/double-pendulum.dir/build.make CMakeFiles/double-pendulum.dir/main.cpp.o
+.PHONY : main.cpp.o
 
-single_pendulum.i: single_pendulum.cpp.i
-.PHONY : single_pendulum.i
+main.i: main.cpp.i
+.PHONY : main.i
 
 # target to preprocess a source file
-single_pendulum.cpp.i:
-	$(MAKE) -f CMakeFiles/double-pendulum.dir/build.make CMakeFiles/double-pendulum.dir/single_pendulum.cpp.i
-.PHONY : single_pendulum.cpp.i
+main.cpp.i:
+	$(MAKE) -f CMakeFiles/double-pendulum.dir/build.make CMakeFiles/double-pendulum.dir/main.cpp.i
+.PHONY : main.cpp.i
 
-single_pendulum.s: single_pendulum.cpp.s
-.PHONY : single_pendulum.s
+main.s: main.cpp.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-single_pendulum.cpp.s:
-	$(MAKE) -f CMakeFiles/double-pendulum.dir/build.make CMakeFiles/double-pendulum.dir/single_pendulum.cpp.s
-.PHONY : single_pendulum.cpp.s
+main.cpp.s:
+	$(MAKE) -f CMakeFiles/double-pendulum.dir/build.make CMakeFiles/double-pendulum.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -148,9 +148,9 @@ help:
 	@echo "... double-pendulum"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... single_pendulum.o"
-	@echo "... single_pendulum.i"
-	@echo "... single_pendulum.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 
